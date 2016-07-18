@@ -1,0 +1,67 @@
+.header{
+  border-width: 1px;
+  border-style: solid;
+  border-color: slategray;
+}
+
+.nav{
+  list-style: none;
+  display: inline-block;
+}
+
+.element-one{
+  display: inline-block;
+  margin: 5px;
+}
+.element-two{
+  display: inline-block;
+  margin: 5px;
+}
+.element-three{
+  display: inline-block;
+  margin: 5px;
+}
+
+.disabled{
+  color: gray;
+  text-decoration: none;
+}
+
+.active{
+  color: yellow;
+  text-decoration: none;
+}
+
+.red{
+  color: red;
+}
+
+.parent h4:nth-child(2){
+  background-color: red;
+}
+
+.parent h4:nth-child(4){
+  background-color: blue;
+}
+
+.blue{
+  color: blue;
+}
+
+.grandparent h4:nth-child(1){
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#privacy{
+  color:purple;
+}
+
+.promo{
+  font-weight: bold;
+  color: gold;
+}
+
+input{
+  height: 25px;
+}
